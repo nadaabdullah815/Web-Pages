@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Interactive Web Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">My Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="calculator.html">Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="consultation.html">Consultation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="fw-bold">Tech & Development Blog</h1>
+            <p class="lead">Latest articles and tips about web development.</p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main class="container py-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <span class="badge bg-primary mb-2">Web Dev</span>
+                        <h5 class="card-title">Getting Started with HTML5 & CSS3</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">August 29, 2026</h6>
+                        <p class="card-text">Learn the core concepts of structuring and styling modern responsive websites.</p>
+                        <button class="btn btn-outline-primary read-more-btn" data-title="Getting Started with HTML5 & CSS3">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <span class="badge bg-success mb-2">Bootstrap 5</span>
+                        <h5 class="card-title">Why Use Bootstrap 5?</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">August 28, 2026</h6>
+                        <p class="card-text">Discover how Bootstrap speeds up development with its versatile grid system and UI components.</p>
+                        <button class="btn btn-outline-primary read-more-btn" data-title="Why Use Bootstrap 5?">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">JavaScript</span>
+                        <h5 class="card-title">Interactivity with JavaScript</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">August 25, 2026</h6>
+                        <p class="card-text">Bring your webpages to life with DOM manipulation and event handlers.</p>
+                        <button class="btn btn-outline-primary read-more-btn" data-title="Interactivity with JavaScript">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 All Rights Reserved - Nada's Project</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
